@@ -1,0 +1,170 @@
+body{
+    text-align: center;
+    margin: 0rem;
+    background-color: #EEF2FF;
+}
+
+h2{
+    color: black ;
+    margin-top: 0rem ;
+}
+
+
+/*                                                                              CLASS SELECTORS                                                                                     */
+ 
+.top{
+    text-align: left;
+    display: block;
+    position: fixed;
+    width: 100%;
+    padding: 0.313rem;
+    background-color: #CDDEFF;   
+}
+
+.top:hover{
+    background-color: #676FA3;
+    transition-duration: 5s;
+}
+
+.mid{
+    font-family: 'The Nautigal', cursive;
+    font-size: 350%;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-top: 12.5rem;
+}
+
+.bottom
+{
+    text-align: center;
+    padding: 1.875rem;
+    padding-top: 3.125rem;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: x-large;
+}
+
+.topcont{
+    text-align: center;
+    font-family: 'The Nautigal', cursive;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-decoration-color: rgb(15, 1, 1);
+    padding: 0.983rem;
+    background-color:#CDDEFF ;
+}
+
+.topcont:hover{
+    background-color: #676FA3;
+
+}
+
+.midcont{
+    text-align: left;
+    margin: 0rem;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: x-large;
+    padding-top: 0.625rem;
+    padding-bottom: 3.125rem ;
+
+}
+
+.bottomcont{
+    text-align: left;
+}
+
+.image{
+    margin: 0%;
+    width: 80%;
+    height: 18.75rem;
+    background-color: #676FA3;
+}
+
+
+.btn1 {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 1.75rem;
+    font-family: Georgia;
+    color: #030303;
+    font-size: 1.563rem;
+    padding: 0rem 1.25rem 0rem 1.25rem;
+    text-decoration: none;
+    position: fixed;
+    right: 200px ;
+  }
+  
+  .btn1:hover {
+    background: #088cf2;
+    background-image: -webkit-linear-gradient(top, #088cf2, #b5d3e8);
+    background-image: -moz-linear-gradient(top, #088cf2, #b5d3e8);
+    background-image: -ms-linear-gradient(top, #088cf2, #b5d3e8);
+    background-image: -o-linear-gradient(top, #088cf2, #b5d3e8);
+    background-image: linear-gradient(to bottom, #088cf2, #b5d3e8);
+    text-decoration: none;
+    position: fixed;
+    right: 12.5rem ;
+  }
+
+  .btn2 {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 1.75rem;
+    font-family: Georgia;
+    color: #030303;
+    font-size: 1.563rem;
+    padding: 0rem 1.25rem 0rem 1.25rem;
+    text-decoration: none;
+    position: fixed;
+    right: 1.25rem ;
+  }
+  
+  .btn2:hover {
+    background: #088cf2;
+    background-image: -webkit-linear-gradient(top, #088cf2, #b5d3e8);
+    background-image: -moz-linear-gradient(top, #088cf2, #b5d3e8);
+    background-image: -ms-linear-gradient(top, #088cf2, #b5d3e8);
+    background-image: -o-linear-gradient(top, #088cf2, #b5d3e8);
+    background-image: linear-gradient(to bottom, #088cf2, #b5d3e8);
+    text-decoration: none;
+    position: fixed;
+    right: 1.25rem ;
+  } 
+
+
+/*                                                                          ID SELECTORS                                                                                            */
+
+
+#txt1{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: xx-large;
+}
+
+#sub{
+    position: relative ;
+    left: 12.5rem;
+    text-align: left;
+}
+
+#image{
+    display: inline-block;
+    position :static;
+    right: 28.125rem;
+    width: 100%;
+    height: 7.5rem;
+    top : 8.125rem;
+}
